@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ROHIT</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/+JFzZgLbzmGNlNjk9'>Backup </a>\n </a></b>",
-            disable_web_page_preview = True,
-            reply_markup = InlineKeyboardMarkup(
+            text=f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ROHIT</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/+JFzZgLbzmGNlNjk9'>Backup</a></b>",
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 Channel', url='https://t.me/+WkkEf1B42sI0OTk9')
+                        InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data="close"),
+                        InlineKeyboardButton('🍁 Channel', url='https://t.me/+WkkEf1B42sI0OTk9')
                     ]
                 ]
             )
@@ -27,12 +27,3 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             pass
-
-
-#⋗  ᴛᴇʟᴇɢʀᴀᴍ - @rohit_1888
-
-#- ᴄʀᴇᴅɪᴛ - Github - @rohit1888 , @rohit1888
-#- ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛ..
-#- ᴛʜᴀɴᴋ ʏᴏᴜ ᴄᴏᴅᴇғʟɪx ʙᴏᴛs ғᴏʀ ʜᴇʟᴘɪɴɢ ᴜs ɪɴ ᴛʜɪs ᴊᴏᴜʀɴᴇʏ 
-#- ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ɢɪᴠɪɴɢ ᴍᴇ ᴄʀᴇᴅɪᴛ @rohit1888 
-#- ғᴏʀ ᴀɴʏ ᴇʀʀᴏʀ ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ -> ᴛᴇʟᴇɢʀᴀᴍ @rohit1888 </b>
