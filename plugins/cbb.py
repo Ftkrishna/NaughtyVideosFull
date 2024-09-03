@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text=f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ROHIT</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/+JFzZgLbzmGNlNjk9'>Backup</a></b>",
+            text=f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ROHIT</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/NaughtyXbackup'>Backup</a></b>",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data="close"),
-                        InlineKeyboardButton('🍁 Channel', url='https://t.me/+WkkEf1B42sI0OTk9')
+                        InlineKeyboardButton('🍁 Channel', url='https://t.me/NaughtyX11')
                     ]
                 ]
             )
